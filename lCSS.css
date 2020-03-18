@@ -1,0 +1,118 @@
+  /*this is how fonts are inserted into works*/
+  
+  @font-face {
+      font-family: "Aclonica";
+      src: url("Aclonica.ttf");
+  }
+  
+  html {
+      font-family: "Aclonica";
+  }
+  
+  .heading {
+      text-align: center;
+      border-bottom: groove;
+      text-shadow: 2px 2px 2px rgb(240, 24, 24), 2px 2px 2px;
+      font-family: "Aclonica";
+      text-transform: uppercase;
+  }
+  
+  form {
+      text-align: right;
+      /*display: inline-block;
+        padding-left: 0cm;
+        padding-right: 0cm;
+        margin: 0cm;*/
+  }
+  
+  button,
+  input,
+  select,
+  textarea {
+      font-family: inherit;
+      font-size: 100%;
+      width: 150px;
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+  }
+  
+  a:link {
+      color: khaki;
+      text-decoration: none;
+      background-color: rgba(212, 227, 230, 0.932);
+      ;
+  }
+  
+  a:visited {
+      color: lightgoldenrodyellow;
+  }
+  
+  a:hover {
+      color: wheat;
+      transform: scale(100px);
+  }
+  
+  html {
+      background: slategray;
+      /* background: url(mask.jpg) no-repeat darkslategray;*/
+      /*background-position: top 10vh left 30VW;*/
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="date"] {
+      border: solid 2px dimgray;
+      margin: 5px;
+  }
+  
+  input[type="placeholder"] {
+      text-shadow: lightblue;
+  }
+  
+  input[type="submit"] {
+      border-radius: 10px;
+      border: solid 3px dimgray;
+      font-size: 0.5em;
+      font-weight: bold;
+  }
+  
+  #sign {
+      width: 50px;
+  }
+  
+  video {
+      border: lightpink groove 3px;
+      width: 35%;
+      height: 50%;
+  }
+  
+  .h2 {
+      /*text-decoration: wavy overline underline aquamarine;*/
+      font-weight: lighter;
+  }
+  
+  .h3 {
+      color: red;
+      /*text-decoration: crimson line-through wavy;*/
+      font-weight: bolder;
+      text-shadow: black 2px 2px 2px, 2px 2px 2px;
+  }
+  
+  .h4 {
+      /*text-decoration: dashed goldenrod overline;*/
+      font-weight: lighter;
+  }
+  
+  ol {
+      list-style-type: lower-latin;
+      list-style-position: outside;
+  }
+  
+  ul {
+      list-style: square outside;
+  }
+  
+  a:active {
+      color: navy;
+  }
