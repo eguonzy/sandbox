@@ -116,5 +116,6 @@
   a:active {
       color: navy;
   }
-footer {border: 2px black;
-color: skyblue;}
+footer {border: groove 2px navyblue;
+color: skyblue;
+Background: black;}
